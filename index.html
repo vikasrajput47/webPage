@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        body{
+           
+            background-image: url(bgImage.jpg);
+    background-size: 1368px;
+    background-repeat: no-repeat;
+    background-position: center;
+        }
+        .container {
+            flex-flow: wrap;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e0d0d4f;
+   
+}
+        .in{
+            display: inline;
+            padding: 79px 40px;
+            
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 32px;
+
+        }
+        a:hover{
+            text-decoration:underline;
+       
+        }
+        .box{
+            height: 50px;
+    color: white;
+    display: inline-block;
+    padding: 18px 22px;
+    margin: -9px 21px;
+    align-self: baseline;
+    font-family: fantasy;
+}
+.imge{
+    width: 82px;
+    height: 69px;
+    border-radius: 50px;
+}
+
+.agal {
+    padding: 3px 76px;
+    margin: -63px 35px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+}     
+.midContainer{
+    
+    display: flex;
+    justify-content: center;
+    margin: 72px 20px;
+    font-size: 40px;
+    color: white;
+    font-family: fangsong;
+    font-weight: bold;
+}
+.insideInfo{
+    margin: 49px 452px;
+    display: flex;
+    flex-flow: column;
+    width: 152px;
+    padding: 12px 26px;
+
+}
+.input{
+    padding: 10px 52px;
+    margin: 7px -34px;
+    border-radius: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="box" id="box-1"><img class="imge" src="logo.jpg" alt=""><p class="agal">Coder</p></div>
+       <div class="box" id="box-2">
+        <ul class="item">
+            <li class="in"><a href="#">Home</a></li>
+            <li class="in"><a href="#">About Us</a></li>
+            <li class="in"><a href="#">Course</a></li>
+            <li class="in"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="midContainer">
+     <div class="midItem">Come and Leverage Your Coding skills with us</div>
+    
+    </div>
+  
+        <div class="insideInfo">
+            <input required class="input" type="text"  placeholder="Enter you name">
+            <input  class="input" type="text " placeholder="Enter your Course">
+            <input  class="input" type="text" placeholder="Enter your number">
+            <input class="input"  type="text" placeholder="Enter your Email">
+            <button class="input" >Submit</button>
+        </div>
+   
+</body>
+</html>
